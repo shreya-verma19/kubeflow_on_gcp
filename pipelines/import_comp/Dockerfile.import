@@ -1,0 +1,8 @@
+FROM python:latest
+RUN pip install numpy
+RUN pip install matplotlib
+RUN pip install pandas
+RUN pip install gcsfs
+COPY import.py .
+CMD [ "python", "import.py" ]
+
