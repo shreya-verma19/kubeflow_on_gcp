@@ -4,5 +4,6 @@ RUN pip install matplotlib
 RUN pip install pandas
 RUN pip install gcsfs
 COPY import.py .
+COPY schema.txt .
 CMD [ "python", "import.py" ]
 

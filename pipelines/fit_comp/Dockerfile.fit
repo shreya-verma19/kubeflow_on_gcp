@@ -1,0 +1,5 @@
+FROM python:latest
+RUN pip install sklearn
+COPY fit.py .
+COPY output.txt .
+CMD [ "python", "fit.py" ]
