@@ -7,4 +7,5 @@ COPY import.py .
 COPY X.txt .
 COPY y.txt .
 CMD [ "python", "import.py" ]
+RUN
 
