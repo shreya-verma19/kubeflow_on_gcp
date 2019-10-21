@@ -3,8 +3,8 @@ RUN pip install numpy
 RUN pip install matplotlib
 RUN pip install pandas
 RUN pip install gcsfs
-COPY import.py .
-COPY X.txt .
-COPY y.txt .
+WORKDIR /home/s_verma1904/kubeflow_on_gcp/social_network/
+COPY . .
+COPY mlpipeline-ui-metadata.json .
 CMD [ "python", "import.py" ]
 

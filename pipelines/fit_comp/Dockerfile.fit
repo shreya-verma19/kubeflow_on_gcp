@@ -1,6 +1,11 @@
 FROM python:latest
 RUN pip install sklearn
 RUN pip install numpy
+RUN pip3 install pandas
 COPY fit.py .
 COPY output.txt .
-CMD [ "python", "fit.py" ]
+COPY X.txt .
+COPY y.txt .
+COPY mlpipeline-ui-metadata.json .
+COPY roc.csv .
+ENTRYPOINT fit.py
