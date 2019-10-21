@@ -1,6 +1,0 @@
-FROM python:latest
-RUN pip install sklearn
-RUN pip install numpy
-COPY fit.py .
-COPY output.txt .
-CMD [ "python", "fit.py" ]

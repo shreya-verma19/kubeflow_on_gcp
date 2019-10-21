@@ -1,0 +1,11 @@
+FROM python:latest
+RUN pip install numpy
+RUN pip install matplotlib
+RUN pip install pandas
+RUN pip install gcsfs
+WORKDIR /home/s_verma1904/kubeflow_on_gcp/social_network/
+COPY . .
+COPY mlpipeline-ui-metadata.json .
+CMD [ "python", "import.py" ]
+RUN
+
