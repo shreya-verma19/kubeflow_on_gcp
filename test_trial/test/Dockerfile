@@ -1,6 +1,6 @@
 FROM python:3.7.3-slim
 
-WORKDIR /home/vishwajyoti_pandey/component/Testing/
+WORKDIR /home/s_verma/test_trial/Testing/
 
 COPY . .
 
