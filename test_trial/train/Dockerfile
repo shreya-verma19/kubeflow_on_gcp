@@ -1,6 +1,6 @@
 FROM python:3.7.3-slim
 
-WORKDIR /home/vishwajyoti_pandey/component/Training/
+WORKDIR /home/s_verma1904/test_trial/Training/
 
 COPY . .
 
