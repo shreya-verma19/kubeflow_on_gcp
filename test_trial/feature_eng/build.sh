@@ -1,9 +1,5 @@
-#IMAGE  NAME TO ASSIGN THE DOCKER CONTAINER
-CONTAINER_NAME=feature_eng
-#GCP URI OF CONTAINER MANAGEMENT SYSTEM FOR THE GOOGLE PROJECT
-GCP_URI=us.gcr.io
-#VERSION OF THE DOCKER IMAGE
-TAG_NAME=latest
-docker build -t ${CONTAINER_NAME}:${TAG_NAME} .
-docker tag ${CONTAINER_NAME}:${TAG_NAME} ${GCP_URI}/${CONTAINER_NAME}:${TAG_NAME}
-docker push ${GCP_URI}/${CONTAINER_NAME}:${TAG_NAME}
+IMAGE_PATH=us.gcr.io/kubeflow-on-mnist/feature_eng
+docker build -t $IMAGE_PATH -f Dockerfile .
+
+
+

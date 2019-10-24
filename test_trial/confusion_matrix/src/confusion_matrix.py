@@ -36,18 +36,9 @@ def main(argv=None):
         df_roc.to_csv(f, columns=['fpr', 'tpr', 'thresholds'], header=False, index=False)
     f = open('roc.csv', "r")
     print(f.read())
+    """
     metadata = {
         'outputs': [
-            {
-              'type': 'web-app',
-              'storage': 'gcs',
-              'source': 'gs://social_network-kubeflow-on-mnist/sample_HTML.html',
-            },
-            {
-                'storage': 'inline',
-                'source': '# Inline Markdown\n[A link](https://www.kubeflow.org/)',
-                'type': 'markdown',
-            },
             {
                 'type': 'confusion_matrix',
                 'format': 'csv',
@@ -61,12 +52,32 @@ def main(argv=None):
              }
         ]
      }
- 
+  """
+    metadata = {
+    'outputs' : [
+    # Markdown that is hardcoded inline
+    {
+      'storage': 'inline',
+      'source': '# Inline Markdown\n[A link](https://www.kubeflow.org/)',
+      'type': 'markdown',
+    },
+    # Markdown that is read from a file
+    {
+      'source': 'gs://social_network-kubeflow-on-mnist/sample_HTML.html',
+      'type': 'markdown',
+    }]
+  }  
     with open('/mlpipeline-ui-metadata.json', 'w') as f:
         json.dump(metadata, f)
+    metrics = {
+    'metrics': [{
+      'name': 'roc-auc-score',
+      'numberValue': 0.55,
+    }]
+    }
+    with open('/mlpipeline-metrics.json', 'w') as f:
+        json.dump(metrics, f)
     f = open("/mlpipeline-ui-metadata.json", "r")
     print(f.read())
-   
-    
 if __name__== "__main__":
         main()
