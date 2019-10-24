@@ -1,12 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "kubeflow-on-mnist",
-  "private_key_id": "80bfc1560d79f78c4cc6f480275fe60b27d7fc90",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDsXVO2oaDIDZp\nalRnf58UdTShn4xjOfpc/1ML7kDcozvp/8j9x8In6SAFNUkt0zs5MbctpHG4j/4/\n4p+t4IZoq4QZ0GD1ZWk+Z3hKLtAKld5MGhgQOMT6Wwj+nHoLtqPleDLa6fHyrfn4\n85ACt5LeSNd8Ko8MaEWo5TOH3nef/k8XqFruICJkdUWZ94Hlnsd2FluPHLYUStLd\nKAVg4xVacQYNnMRS3NuW6WAisDo8itkDnX/NLAUyY8Kf+38Reh9EPL4l3rPdqvXE\nap70L3b2o2kgbCv3gG8Gbq2lFQkOX1Prl40qYoEMOBf2xY1vBNvGRF0y3CAaVQ3c\nI60HMnq/AgMBAAECggEAQDOvNdCRwuFFmK4OxOnkyfRt8PyENWWnEu2dVFO1Ke3P\n0URer4vi0e801yCVQpiDXI9H9ox11sQ++LykAIqh7iMfMszfkoLT1Wpi14umK2Lh\nzHvfGytUzIIjYEz76W3hNX6KyLFp9GFJmnhl7c5GO/EP6SeZSMvI1tFjZ5cADhfw\nhu+whqYqOnO9JV9GU4liJ2oZgWcm2eYij49whD5B0beDMAzeDW4b1jance0fYyyK\nuMk6MxhnCctjTtsFEtaWWncLCzLO2ComBXZqyao7UNfOLi8stkbOgGYjWoVfzIGS\nRaYiRMXe5OOQX+6apb0MmuTIBNiTm2PNJEsOVS3eiQKBgQDyzzO+UFtANaV3JjD8\nDwBuioG+ccElkatQMvSrbFe7KCZBBOZuLZsgMsw9HCkF4lBtbgf+tMBti9c8MPbC\nXSMPkca7DLNLZkQT2FoN3SsXDE0o4KE8U9DnU63+i2grgxg/7rq+RzpeIfSyrHqy\nEyzq8TGGs1XVk5TEFDDsARJ2AwKBgQDOUwCExo1gkvgOESM94NBbpjLjAuTOisd2\ngActegSeVlQwU/jbQXwnVLN4rGPHdvWRD9PuCQq7Zzm6BXPG+zwmiHNNpD0EZKxU\nmPbt4zlSoH3pNp7cGHg3KSeI3GVpQWTVufeoenM12WLrtTNPm+dX9FvrqQkBn62l\n+Kq/l6SZlQKBgQCmLUMXjD13i3+sNRovWEEOZoL3iTkMck7R+53SOLsuXwMXWrgu\nTc4uUjXP2RcGbOZojnawTpqoHp33Fve6/C1DuZxOZhnLj7kl79tqQ6T7CDNCt8IB\n3MdLmsypOlXX+ce98bAjC/KZfBnRsxPiDheez+X6b4BeRLv7GmqFCxLMawKBgFoq\n+gIMx8JZ2GBFaxJiyowTERAWtqnxCoSmJPzh41zTO423VP11G+4QXTKynBSSz3Tq\n5uKTPwZxcU/zjAp8x2fLoCBhU201Ff8OrnN+JxIOI5ilDz3+z6LDsIxmTUd3lbq1\nwB74DJuO+mUqVldHOg49M2LFB7OW9gufpfd/LScVAoGAB/qlGyCNL6mue66KXOdR\n1oahpAUgdMCv7L2i1QFpiE6h299V3WwrKFUpktuI9/vFomj7CUDgOaPxhSx5a1Zp\nWxqrkoAipIdXp6/RM7nkCo8TK6bE+HDzeOTOn0n5KGVB8EmziHDCxRRjsySoBMWo\nkf7kILJvFWKzrmi8C1qdg7g=\n-----END PRIVATE KEY-----\n",
-  "client_email": "deploy-social-ads@kubeflow-on-mnist.iam.gserviceaccount.com",
-  "client_id": "114816937135607864089",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deploy-social-ads%40kubeflow-on-mnist.iam.gserviceaccount.com"
-}
+
